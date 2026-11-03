@@ -16,9 +16,9 @@ F1TENTH(RoboRacer) 실차 제작 기록. **Traxxas Slash 4x4 + Jetson Orin NX** 
 | 상판 3D 프린팅 | ✅ 앞판·뒷판 PETG-CF 출력 |
 | 아래층 차체 분해 (기존 전장 제거) | 🔄 진행 중 |
 | 스탠드오프·나사 | ⬜ 미보유 → 구매 필요 ([docs/parts_check.md](docs/parts_check.md)) |
-| 배터리 | ⚠️ 2S 7.4V 보유 → 3S 필요 여부 확인 ([docs/parts_check.md](docs/parts_check.md)) |
-| LiDAR | ⬜ 기종 미정 |
-| VESC·파워보드 | ⬜ 모델·입력전압 확인 필요 |
+| 배터리 | ⚠️ 2S 7.4V 보유 → VESC 6 MkVI(3S~12S)로 추정되어 **3S 필요** ([docs/parts_check.md](docs/parts_check.md)) |
+| LiDAR | 🔄 Hokuyo 계열로 추정 (다른 팀 차와 같은 부품), 모델 확인 필요 |
+| VESC·파워보드 | 🔄 VESC 6 MkVI로 추정, 라벨 확인 필요 |
 | 배선·첫 전원 | ⬜ |
 | 소프트웨어 (ROS 2 Humble, f1tenth_system) | ⬜ |
 

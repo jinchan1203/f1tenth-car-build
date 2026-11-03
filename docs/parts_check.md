@@ -13,8 +13,14 @@
 
 F1TENTH 차량은 보통 **3S LiPo (11.1V, 완충 12.6V)** 사용. 공식 BOM 페이지는 배터리 사양을 외부 스프레드시트로만 링크해서 직접 확인하지 못함.
 
+**VESC가 Trampa VESC 6 MkVI라면 (같은 연구실 다른 팀 차 기준, 우리 부품도 같을 것으로 추정)**:
+입력 **11.1V ~ 60V (3S ~ 12S)** 로 알려져 있음 ([fallman.tech 사양표](https://fallman.tech/vesc-6-controller), Trampa 공식 데이터시트는 미확인)
+→ 2S(최대 8.4V)는 하한 미달 → **3S 이상 배터리 필요**. 2S 8400 mAh는 이 차에 쓰지 않는 것으로 정리.
+
+VESC–배터리–모터 연결 참고: [UNICORN — How to Connect VESC to Battery and Motor](https://hmcl-unist.github.io/unicorn-racing/posts/vesc-battery-motor-connection-en/)
+
 확인할 것:
-- [ ] VESC 모델과 입력 전압 범위 (라벨/모델명)
+- [ ] 우리 VESC가 실제로 VESC 6 MkVI인지 (라벨)
 - [ ] 파워보드 입력 범위
 - [ ] 연구실 3S 배터리 보유 여부
 - [ ] 3S로 갈 경우: Slash 배터리 칸 크기, 커넥터(XT60/XT90/Traxxas)와 VESC 쪽 맞는지
@@ -40,6 +46,6 @@ F1TENTH 차량은 보통 **3S LiPo (11.1V, 완충 12.6V)** 사용. 공식 BOM �
 
 ## 미정
 
-- [ ] LiDAR 기종: UTM-30LX(USB) / UST-10LX(이더넷, 40 Hz, F1TENTH 표준) / 저가형(10~15 Hz, 고속에서 위치추정 불리)
+- [ ] LiDAR 기종: 다른 팀 차는 Hokuyo 계열(검은 몸체·주황 뚜껑)로 보임 → 같은 부품이면 Hokuyo. 라벨로 UTM-30LX(USB) / UST-10LX(이더넷) 확인
 - [ ] Jetson 캐리어보드 (상판 구멍과 맞는지)
 - [ ] 와이파이 안테나·USB 허브·배럴잭 케이블·총알 어댑터(4→3.5 mm)·TRX↔XT90 어댑터 보유 여부
