@@ -14,6 +14,7 @@ F1TENTH(RoboRacer) 실차 제작 기록. **Traxxas Slash 4x4 + Jetson Orin NX** 
 | 상판 도면 선정 | ✅ UNICORN Racing `F1tenth_Orin_NX` (Traxxas + Orin NX + VESC) |
 | 상판 분할 (256 mm 베드용) | ✅ 하프랩 이음 + M3 볼트 4개 |
 | 상판 3D 프린팅 | ✅ 앞판·뒷판 PETG-CF 출력 (v1) |
+| 상판 이음 (v1) | ✅ 앞판·뒷판 결합 완료 |
 | 상판 v2 (케이블 통과 창) | 📐 설계만 완료, 미출력 |
 | 아래층 차체 분해 (기존 전장 제거) | 🔄 진행 중 |
 | 스탠드오프·나사 | ⬜ 미보유 → 구매 필요 ([docs/parts_check.md](docs/parts_check.md)) |
