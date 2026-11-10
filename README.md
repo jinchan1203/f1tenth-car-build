@@ -9,7 +9,7 @@ F1TENTH(RoboRacer) 실차 제작 기록. **Traxxas Slash 4x4 + Jetson Orin NX** 
 
 | 단계 | 상태 |
 |---|---|
-| 차체 선정 | ✅ Traxxas (Slash 4x4 기준) |
+| 차체 선정 | ✅ Traxxas **Rally** (옆팀과 같은 차, UNICORN 판 장착 호환 확인 필요) |
 | 컴퓨터 | ✅ Jetson Orin NX (추정, 캐리어보드 확인 필요) |
 | 상판 도면 선정 | ✅ UNICORN Racing `F1tenth_Orin_NX` (Traxxas + Orin NX + VESC) |
 | 상판 분할 (256 mm 베드용) | ✅ 하프랩 이음 + M3 볼트 4개 |

@@ -2,3 +2,4 @@
 venv/
 out/
 __pycache__/
+hardware/antenna_mount/
