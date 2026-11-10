@@ -3,3 +3,5 @@ venv/
 out/
 __pycache__/
 hardware/antenna_mount/
+hardware/official_deck_v3/
+hardware/official_deck_v3_split/
